@@ -11,6 +11,7 @@ function App() {
           <button onClick={()=>setColor("#6B9AC4")} className="bg-[#6B9AC4] w-20 h-8 rounded-md ">Blue</button>
           <button onClick={()=>setColor("#97D8C4")} className="bg-[#97D8C4] w-20 h-8 rounded-md ">Green</button>
           <button onClick={()=>setColor("#F4B942")} className="bg-[#F4B942] w-20 h-8 rounded-md ">Orange</button>
+          <button onClick={()=>setColor("pink")} className="bg-pink-500 w-20 h-8 rounded-md ">Pink</button>
         </div>
     </div>
   )
